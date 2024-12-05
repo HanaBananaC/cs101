@@ -10,5 +10,6 @@ int main() {
         int h = ((i - 30) / 30 + 1) * 30;
         printf("%d元\n", h);
     }
+    
     return 0;
 }
