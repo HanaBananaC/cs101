@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i = 10; // 測試數字
+    int i = 10;
     if (i & 1) {
         printf("奇數\n");
     } else {
