@@ -9,5 +9,6 @@ int main() {
         int h = (n / 100 + (n % 100 > 0 ? 1 : 0)) * 10;
         printf("%d元\n", 70 + h);
     }
+    
     return 0;
 }
