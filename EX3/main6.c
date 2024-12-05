@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int i = 1000;
     if (i <= 1500) {
