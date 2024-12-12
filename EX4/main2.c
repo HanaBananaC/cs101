@@ -1,20 +1,26 @@
-#include <stdio.h>
+#include <stdio.h›
+int mainO {
+    double pi = 4.0;
+    int flag = 1;
+    long ipi = 0;
+    int x = 0;
 
-int main() {
-	double pi = 4.0f;
-	double PI = 4.0f;
-	int x = 0;
-	for(int i = 3 ; i <= 1000000 ; i+=2) {
-		if((i/2) % 2 == 1)
-			PI -= pi/i; 
-		else
-			PI += pi/i;
-		if(PI >= 3.141585 && PI <= 3.141594) {
-			x = i;
-			break;
-		}
-	}
-	printf("%.5f and x = %d", PI, x);
-    
-	return 0;
+    for (int i=3; i<1000000; i+=2)
+         if (flag = 0) {
+             pi += (4.0/i); 
+             flag++;
+         }
+         else {
+             pi -= (4.0/i); 
+             flag--;
+         }
+         ipi = pi * 100000;
+         if (ipi == 314159) {
+             x = i;
+             break;
+	 }
+    } 
+    printf("%d %.5f", x, pi);
+
+return 0;
 }
